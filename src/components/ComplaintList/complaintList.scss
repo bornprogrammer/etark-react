@@ -1,0 +1,82 @@
+.complaint-info-row {
+  height: 72px;
+  padding-left: 32px;
+  padding-right: 32px;
+  display: flex;
+  background: #ffffff;
+  border-radius: 8px;
+  margin-bottom: 5px;
+  align-items: center;
+  .complaint-info-col {
+    width: 25%;
+
+    .button {
+      background: #f6f6f6;
+      border-radius: 8px;
+      font-family: Poppins, sans-serif;
+      text-transform: none;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 10px;
+      line-height: 18px;
+      letter-spacing: 0.02em;
+    }
+    .btn-open-complaint {
+      color: #245fd3;
+    }
+
+    .complaint-status-text {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 18px;
+      letter-spacing: 0.02em;
+    }
+
+    .complaint-status-pending {
+      color: #ed483a;
+    }
+    .complaint-status-filed {
+      color: #245fd3;
+    }
+    .complaint-status-done {
+      color: #52b03b;
+    }
+
+    .complaint-product-name {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 18px;
+      letter-spacing: 0.02em;
+      color: #26252e;
+    }
+
+    .complaint-product-purchase,
+    .complaint-product-price {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 10px;
+      line-height: 16px;
+      letter-spacing: 0.01em;
+      color: #b5b3c4;
+    }
+  }
+}
+.complaint-info-col-header {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.02em;
+  color: #26252e;
+}
+
+.complaint-info-row-header {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.02em;
+  color: #26252e;
+}

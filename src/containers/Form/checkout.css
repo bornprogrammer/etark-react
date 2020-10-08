@@ -1,0 +1,38 @@
+.checkoutcontain {
+  background-color: white;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.checkoutcontain h1 {
+  font-size: 1.2em;
+}
+
+.checkoutcontain p {
+  font-size: 1em;
+  color: #616066;
+}
+
+.inputbox {
+  margin: 3% 0;
+  font-family: 'Poppins';
+}
+
+.lines {
+  display: flex;
+  justify-content: space-between;
+  padding: 3% 0;
+}
+
+.pay {
+  margin: 5% 0;
+  width: 100%;
+  font-family: Poppins;
+}
+
+.addBtn {
+  font-family: Poppins;
+  width: 100%;
+  padding: 1vh 0;
+  margin: 5% 0;
+}

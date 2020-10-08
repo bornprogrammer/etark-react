@@ -1,0 +1,77 @@
+.form {
+  background-color: white;
+  height: 68vh;
+  border-radius: 5px;
+  padding-bottom: 5vh;
+}
+
+.header {
+  padding: 3vh 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form h1 {
+  font-size: 1.2em;
+}
+
+.form p {
+  font-size: 1em;
+  color: #616066;
+}
+
+.nextbtn {
+  color: white;
+  background-color: #245fd3;
+  font-family: Poppins;
+  margin: 0 2%;
+  padding: 1vh 3vw;
+}
+
+.frontBtn {
+  width: 90%;
+  padding: 5% 0;
+  margin-top: 5%;
+  background-color: transparent;
+  box-shadow: none;
+  border: dashed 1px #9d9ba8;
+  color: #9d9ba8;
+  font-family: Poppins;
+}
+
+.phonedtlbody {
+  margin-top: 3vh;
+  height: 77%;
+  overflow: auto;
+}
+
+.phonedtlbody p {
+  color: #26252e;
+  font-family: Poppins;
+}
+
+.field {
+  font-family: Poppins;
+}
+
+.btn {
+  font-family: Poppins;
+}
+
+.words {
+  position: absolute;
+  right: 13%;
+  bottom: 5%;
+}
+
+.words p {
+  color: #b5b3c4;
+}
+
+@media only screen and (max-width: 768px) {
+  .form {
+    height: auto;
+    padding-bottom: 5vh;
+  }
+}

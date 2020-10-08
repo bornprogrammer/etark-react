@@ -1,0 +1,125 @@
+.dashboard-right-side-panel {
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  width: 350px;
+  .logout-section {
+    margin-top: 32px;
+    margin-right: 32px;
+    .button {
+      font-family: Poppins;
+      text-transform: none;
+    }
+    .btn-logout {
+      float: right;
+    }
+  }
+  .user-pic {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+  }
+  .activity-feed-section {
+    flex: 1;
+    margin-top: 32px;
+    .title-label {
+      text-align: center;
+      font-style: normal;
+      font-weight: normal;
+      font-family: Poppins;
+      font-size: 18px;
+      line-height: 24px;
+      letter-spacing: 0.02em;
+      color: #000000;
+      .feed-text {
+        font-weight: 600;
+      }
+    }
+    .activity-feeds {
+      .activity-list-data {
+        height: 50px;
+        margin: 5px 10px;
+        border-bottom: 1px solid gray;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .event-title {
+          flex-basis: 75%;
+        }
+        .event-date {
+          font-style: normal;
+          font-weight: normal;
+          font-size: 10px;
+          font-family: Poppins;
+          line-height: 18px;
+          text-align: center;
+          letter-spacing: 0.02em;
+          color: #b5b3c4;
+        }
+      }
+      .no-activty-section {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: #b5b3c4;
+        margin: 20px 68px;
+      }
+    }
+  }
+  .customer-reply-section {
+    margin: 10px 32px 48px;
+    border: 1px solid #f6f6f6;
+    border-radius: 8px;
+  }
+  .activity-response-action {
+    text-align: center;
+    margin-bottom: 48px;
+    a {
+      text-decoration: none;
+    }
+    .button {
+      background: #245fd3;
+      border-radius: 4px;
+      text-transform: none;
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 22px;
+      text-align: center;
+      letter-spacing: 0.02em;
+      color: #f6f6f6;
+      height: 56px;
+      width: 256px;
+    }
+  }
+}
+
+.show-activity-dialog-content {
+  .show-activity-title {
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-left: 10px;
+  }
+  .show-activity-dialog-main-content {
+    border: 1px solid gray;
+    border-radius: 3px;
+    padding: 10px;
+    margin: 20px;
+    word-break: break-word;
+  }
+  .show-activity-dialog-user-info {
+    display: flex;
+    .show-activity-audit-info {
+      margin: 10px;
+    }
+  }
+}

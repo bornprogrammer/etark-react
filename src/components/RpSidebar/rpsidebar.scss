@@ -1,0 +1,36 @@
+.ScContain {
+  width: 26%;
+  padding-top: 2vh;
+  background-color: #202020;
+  .side-items-top {
+    display: flex;
+    align-items: center;
+    background: #151515;
+    color: #245fd3;
+    padding: 3% 2vw;
+    margin-bottom: 5%;
+    h1 {
+      font-size: 1.1em;
+    }
+  }
+  .ScSide {
+    background-color: #202020;
+    height: 100vh;
+    color: #fbfbfb;
+    padding: 1% 2vw;
+    .side-items {
+      display: flex;
+      align-items: center;
+      sideitem-image {
+        margin-right: 5%;
+      }
+    }
+    h1 {
+      font-size: 1.1em;
+      padding: 5% 0;
+    }
+    p {
+      padding: 5% 0;
+    }
+  }
+}

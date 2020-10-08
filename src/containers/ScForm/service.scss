@@ -1,0 +1,48 @@
+.deviceCont {
+  min-height: 65vh;
+  padding-bottom: 5%;
+  .Servicebody {
+    height: 40vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    margin: 3% 0;
+    .phndetail {
+      .lineSpace {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 8%;
+        p {
+          color: #b5b3c4;
+        }
+        h1 {
+          color: #f6f6f6;
+          font-size: 1em;
+        }
+      }
+    }
+    .lines {
+      display: flex;
+      justify-content: space-between;
+      padding: 3% 0;
+    }
+    .compDtl {
+      p {
+        color: #f6f6f6;
+        margin-top: 2%;
+      }
+      h1 {
+        font-size: 1em;
+        color: #b5b3c4;
+      }
+    }
+    .invoicebtn {
+      width: 90%;
+      padding: 5% 0;
+      background-color: transparent;
+      box-shadow: none;
+      border: dashed 1px #9d9ba8;
+      color: #9d9ba8;
+      font-family: Poppins;
+    }
+  }
+}

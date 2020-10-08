@@ -1,0 +1,42 @@
+.cardBod {
+  display: flex;
+  justify-content: space-around;
+  background: linear-gradient(169.25deg, #2b2b2b -7.22%, #181818 114.66%);
+  color: white;
+  width: 22vw;
+  height: 17vh;
+  align-items: center;
+  p {
+    color: #828282;
+  }
+  .card-left {
+    display: flex;
+    flex-basis: 60%;
+    .card-icon {
+      display: flex;
+      align-items: flex-start;
+      height: 100%;
+      padding-top: 5%;
+      padding-right: 2%;
+    }
+    .card-cont {
+      padding-top: 5%;
+    }
+  }
+  .cardRight {
+    display: flex;
+    height: 100%;
+    padding: 5% 0;
+    padding-right: 2%;
+    flex-direction: column;
+    text-align: right;
+    justify-content: flex-end;
+    p {
+      font-size: 0.8em;
+    }
+    .diff {
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
+}

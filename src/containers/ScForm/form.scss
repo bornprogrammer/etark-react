@@ -1,0 +1,62 @@
+/* scrollbar */
+::-webkit-scrollbar {
+  width: 0.6vw;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #edf1fa;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #b5b3c3;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #888;
+}
+
+$mob: 768px;
+
+.formcontain-2 {
+  min-height: 100vh;
+  padding-bottom: 5vh;
+  background: #151515;
+  font-size: 0.9vw;
+  @media (max-width: $mob) {
+    font-size: 0.8em;
+  }
+  .body-2 {
+    margin: 0 11vw;
+    @media (max-width: $mob) {
+      margin: 0 5vw;
+    }
+    .heading-2 {
+      padding: 5vh 0;
+      line-height: 2.5rem;
+      h1 {
+        font-size: 2em;
+        color: #f6f6f6;
+      }
+      p {
+        color: #b5b3c4;
+      }
+    }
+    .contain-2 {
+      display: flex;
+      flex-direction: row;
+      .sc-form {
+        width: 72%;
+        margin-left: 2%;
+        @media (max-width: $mob) {
+          width: 100%;
+          margin-left: 0;
+        }
+      }
+    }
+  }
+}

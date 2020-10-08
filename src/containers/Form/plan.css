@@ -1,0 +1,134 @@
+.planform {
+  background-color: white;
+  border-radius: 5px;
+  margin-bottom: 2%;
+  padding: 0 5%;
+  padding-bottom: 3%;
+  /* height: 62vh; */
+}
+
+.planbody {
+  margin-top: 2%;
+  padding-top: 2%;
+  padding-right: 4%;
+  height: 45vh;
+  overflow-y: scroll;
+}
+
+.planform h1 {
+  font-size: 1.2em;
+  margin-bottom: 0.3vh;
+}
+
+.planform p {
+  font-size: 1em;
+  color: #616066;
+}
+
+.doorstep {
+  border: solid 1px;
+  border-radius: 5px;
+  padding: 3%;
+}
+
+.doorstep h1 {
+  font-size: 1.4em;
+}
+
+.doorstep p {
+  font-size: 0.9vw;
+  line-height: 1.5em;
+}
+
+.features {
+  margin-top: 5%;
+}
+
+.features p {
+  font-size: 1em;
+  color: black;
+}
+
+.plans h1 {
+  font-size: 1.6em;
+}
+
+.cardp {
+  font-size: 0.9vw;
+}
+
+.bulletpts {
+  padding-left: 5%;
+  line-height: 2.5vh;
+  margin-top: 2%;
+}
+
+.bulletpts li {
+  margin-top: 2.5vh;
+}
+
+.modalbod {
+  width: 40vw;
+  background: white;
+  font-size: 0.9vw;
+  position: absolute;
+  bottom: 3%;
+  right: 3%;
+  overflow: hidden;
+  z-index: 5;
+}
+
+.pickupBtn {
+  font-family: Poppins;
+  background-color: white;
+  padding: 1% 0;
+  width: 20vw;
+  position: absolute;
+  bottom: 10%;
+  right: 5%;
+}
+
+.modal {
+  position: relative;
+  background-color: white;
+  margin: 10% auto;
+  width: 43vw;
+  padding: 4vh 2vw;
+  border-radius: 5px;
+}
+
+.modal h1 {
+  padding-bottom: 4vh;
+  font-size: 1.2vw;
+}
+.modal p {
+  font-size: 0.9vw;
+}
+
+.frontBtn {
+  width: 100%;
+  padding: 5% 0;
+  margin-top: 1%;
+}
+
+.back {
+  margin-top: 8vh;
+}
+
+.btns {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10%;
+}
+
+@media only screen and (max-width: 768px) {
+  .modal {
+    width: 90vw;
+  }
+  .modal h1 {
+    font-size: 1em;
+  }
+  .modal p {
+    font-size: 0.8em;
+  }
+}

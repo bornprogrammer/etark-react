@@ -1,0 +1,49 @@
+# 
+#    +++++++++++++++++++++++++++++++++++++++++/
+#     dNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNd
+#     ```/+-``````````-MNNsNN.````````````-o+/`
+#       :dNy-         `yNNmNN`            /NNh
+#       hNNs.          `oNNM.            /mNNh
+#      yNNNNs.        .dNNNN`           .sNNNNy
+#     -dNdmNN+       `+NNNNN`           +NNddNd-
+#    -mNd-.yNm/      -NNNNNN`          /mNy`:NNm-
+#    mNN-  omNd/     -NNNNNN`         +mNy. `+NNm
+#   yNN+`   +mNs.    -NNNNN:         .sNm+   `+NNy
+#  .mNd.     oNNy`  `/NNNNN         `yNNo     .mNm.
+#  NNN.      -yNNs  -MNNNNN...      yNNy-      .NNN
+# sNN+`       +NNd+ -NNNNNNNNNysss-+dNN+       `+NNs
+# NNNyssssssssshNNy -mmNNNNNNNNNNNshNNhsssssssssyNNN
+# NNNNNNNNNNNNNNNNy    `++++NNNNN- :dNNNNNNNNNNNNNNN
+#  NNNNNNNNNNNNNNd/        oNNNN-   sNNNNNNNNNNNNNN+
+#   mNNNNNNNNNNNd/        oNNNN.     :hNNNNNNNNNNN+
+#    oomNNNNNho:         `NNNM.        :ohNNNNmoo
+#      ``````            +NNM.            `````
+#                       `NNs.
+#                      `mNy
+#                     `/Ny
+#                     .Ny
+#                    .hy
+#                    `-
+#
+# ███████╗████████╗ █████╗ ██████╗ ██╗  ██╗
+# ██╔════╝╚══██╔══╝██╔══██╗██╔══██╗██║ ██╔╝
+# █████╗     ██║   ███████║██████╔╝█████╔╝
+# ██╔══╝     ██║   ██╔══██║██╔══██╗██╔═██╗
+# ███████╗   ██║   ██║  ██║██║  ██║██║  ██╗
+# ╚══════╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝
+#
+# https://www.robotstxt.org/robotstxt.html
+
+User-agent: Googlebot
+Disallow:
+
+User-agent: AdsBot-Google
+Disallow:
+
+User-agent: Googlebot-Image
+Disallow:
+
+User-agent: *
+Disallow:
+
+Sitemap: https://www.etark.in/sitemap.xml

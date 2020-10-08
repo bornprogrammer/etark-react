@@ -1,0 +1,45 @@
+.no-complaint-info {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #26252e;
+  .no-complaint-info-content {
+    margin-top: 85px;
+    margin-bottom: 40px;
+    padding: 0 70px;
+  }
+}
+
+.complaint-info {
+  margin-top: 56px;
+  .complaint-info-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+    .complaint-info-header-title {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 24px;
+      letter-spacing: 0.02em;
+      color: #26252e;
+    }
+    .btn-all-complaint {
+      font-family: Poppins, 'sans-serif';
+      text-transform: none;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 18px;
+      letter-spacing: 0.02em;
+      color: #245fd3;
+    }
+  }
+  .complaint-info-data {
+    display: flex;
+    flex-direction: column;
+  }
+}

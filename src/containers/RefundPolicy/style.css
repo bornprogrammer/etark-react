@@ -1,0 +1,117 @@
+/* scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #edf1fa;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #b5b3c3;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #888;
+}
+
+body {
+  font-family: Poppins;
+}
+
+/* header */
+.inner {
+  padding: 0 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.socialmedia {
+  display: flex;
+  align-items: center;
+  flex-basis: 40%;
+  justify-content: flex-end;
+}
+.socialmedia a {
+  padding: 0 2%;
+}
+
+/* body */
+.form-bod {
+  text-align: center;
+  margin: 0 20%;
+}
+
+.tnc-bod {
+  padding-right: 2%;
+  height: 60vh;
+  text-align: left;
+  overflow-y: auto;
+}
+
+.tnc-bod h2 {
+  margin-left: 2vw;
+}
+
+.tnc-bod pre {
+  font-family: Poppins;
+  font-size: 1em;
+}
+
+.tnc-bod span {
+  font-family: Poppins;
+  font-size: 0.9em;
+  font-style: italic;
+}
+
+.abclist {
+  padding-left: 2vw;
+}
+
+/* buttons */
+.tncbtn {
+  display: flex;
+  width: 100%;
+  margin: 2% 0;
+  justify-content: space-between;
+}
+
+.tncbtn button {
+  margin-right: 3%;
+  padding: 1vh 2vw;
+}
+
+.radiobtn {
+  display: flex;
+  align-items: center;
+}
+.refundDiv h2 {
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+.refundDiv h3 {
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+.annex {
+  margin-left: 100px;
+  text-indent: -100px;
+}
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 1.5em;
+  }
+  .form-bod {
+    margin: 0 5%;
+  }
+  .tncbtn {
+    display: block;
+    margin: 5% 0;
+  }
+}

@@ -1,0 +1,29 @@
+.separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 42px;
+  letter-spacing: 0.02em;
+  color: #b5b3c4;
+  width: 372px;
+}
+.separator::before,
+.separator::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid #b5b3c4;
+}
+.separator::before {
+  margin-right: 1em;
+}
+.separator::after {
+  margin-left: 1em;
+}
+
+.makeStyles-textFieldPasswordConfirm-40 {
+  margin-top: 20px;
+  margin-bottom: 0;
+}

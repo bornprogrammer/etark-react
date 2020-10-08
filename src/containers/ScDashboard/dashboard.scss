@@ -1,0 +1,436 @@
+/* scrollbar */
+::-webkit-scrollbar {
+  width: 0.6vw;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #edf1fa;
+  border-radius: 10px;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #b5b3c3;
+  border-radius: 10px;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #888;
+}
+// orders
+
+.eachOrder {
+  display: flex;
+  justify-content: space-between;
+  background-color: #252525;
+  padding: 1% 2%;
+  color: #e3e3e3;
+  margin: 5px 0;
+  // align-items: center;
+  .orderid {
+    width: 16%;
+  }
+
+  .device {
+    width: 21%;
+    display: flex;
+    flex-direction: column;
+    // align-items: center;
+  }
+
+  .warranty {
+    width: 16%;
+    // text-align: center;
+  }
+
+  .due {
+    width: 12.5%;
+    display: flex;
+    flex-direction: column;
+    // align-items: center;
+  }
+
+  .pay {
+    width: 12.5%;
+  }
+
+  .status {
+    width: 15%;
+    // text-align: center;
+    .statusBtn {
+      color: #fab12e;
+      font-family: Poppins;
+      background-color: #3f3523;
+    }
+  }
+
+  .actions {
+    width: 5%;
+    // text-align: center;
+  }
+  // new orders
+  .orderid2 {
+    width: 20%;
+  }
+
+  .device2 {
+    width: 20%;
+  }
+
+  .warranty2 {
+    width: 20%;
+  }
+
+  .status2 {
+    width: 20%;
+    // text-align: center;
+  }
+
+  .actions2 {
+    width: 20%;
+    // text-align: center;
+  }
+  // complted and declined orders
+  .orderid3 {
+    width: 25%;
+  }
+
+  .device3 {
+    width: 25%;
+  }
+
+  .warranty3 {
+    width: 25%;
+  }
+
+  .status3 {
+    width: 25%;
+    // text-align: center;
+  }
+}
+// dashboard
+
+.scdashboard {
+  height: 100vh;
+  overflow: hidden;
+  background: #151515;
+  font-family: Poppins;
+  font-size: 1vw;
+
+  .scBod {
+    display: flex;
+
+    .emptyAr {
+      width: 82vw;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 0 23%;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+
+      h1 {
+        font-size: 1.3em;
+        color: #f6f6f6;
+        line-height: 4.5vh;
+      }
+
+      p {
+        color: #b5b3c4;
+        font-size: 1em;
+      }
+
+      img {
+        margin-bottom: 5%;
+      }
+
+      .entry {
+        margin-top: 10%;
+        padding: 2%;
+        width: 15vw;
+        color: #f6f6f6;
+        background-color: #245fd3;
+        font-family: Poppins;
+        border-radius: 4px;
+      }
+    }
+
+    .db {
+      width: 82vw;
+      height: 92vh;
+      padding: 2% 3%;
+      overflow-y: scroll;
+
+      h1 {
+        font-size: 1.3em;
+        color: #f6f6f6;
+        line-height: 4.5vh;
+      }
+
+      p {
+        color: #b5b3c4;
+        font-size: 1em;
+      }
+
+      .dbCards {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      .pastEntries {
+        position: relative;
+        background: linear-gradient(170.1deg, #2b2b2b -7.22%, #181818 114.66%);
+        // gradients
+        .gradient1 {
+          position: absolute;
+          width: 10vw;
+          height: 10vw;
+          right: 0;
+          top: -45%;
+          background: linear-gradient(90deg, #cc2b5e 0%, #753a88 100%);
+          opacity: 0.5;
+          z-index: 0;
+          filter: blur(100px);
+        }
+
+        .upperpart {
+          padding: 2% 2% 0;
+
+          h1 {
+            color: #e3e3e3;
+            font-size: 1.2em;
+          }
+
+          .filter {
+            margin-right: 5%;
+            padding: 2% 0;
+            background: transparent;
+            box-shadow: none;
+            font-family: Poppins;
+          }
+        }
+
+        .orders {
+          .orderhead {
+            display: flex;
+            padding: 1% 2%;
+            background: #202020;
+            color: #7d7d7d;
+
+            .orderid {
+              width: 16%;
+            }
+
+            .device {
+              width: 21%;
+              // text-align: center;
+            }
+
+            .warranty {
+              width: 16%;
+              // text-align: center;
+            }
+
+            .due {
+              width: 12.5%;
+              // text-align: center;
+            }
+
+            .pay {
+              width: 14.5%;
+            }
+
+            .status {
+              width: 15%;
+              // text-align: center;
+            }
+
+            .actions {
+              width: 5%;
+              // text-align: right;
+            }
+            // order request
+            .orderid2 {
+              width: 20%;
+            }
+
+            .device2 {
+              width: 20%;
+            }
+
+            .warranty2 {
+              width: 20%;
+            }
+
+            .status2 {
+              width: 20%;
+              // text-align: center;
+            }
+
+            .actions2 {
+              width: 20%;
+              // text-align: center;
+            }
+            // complete and declined
+            .orderid3 {
+              width: 25%;
+            }
+
+            .device3 {
+              width: 25%;
+            }
+
+            .warranty3 {
+              width: 25%;
+            }
+
+            .status3 {
+              width: 25%;
+              // text-align: center;
+            }
+            // all orders
+            .orderid4 {
+              width: 25%;
+            }
+
+            .device4 {
+              width: 25%;
+            }
+
+            .warranty4 {
+              width: 25%;
+            }
+
+            .status4 {
+              width: 25%;
+              // text-align: center;
+            }
+          }
+        }
+
+        .botnav {
+          display: flex;
+          justify-content: space-between;
+          padding: 1% 2%;
+
+          p {
+            color: #636363;
+          }
+
+          .navs {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+            .navbtn {
+              background: #202020;
+              box-shadow: none;
+              padding: 1%;
+              margin: 1%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+// modal
+
+.Scmodal {
+  background: rgba(37, 37, 37, 0.8);
+  margin-top: 10vh;
+  margin-left: 30vw;
+  width: 50vw;
+  padding: 2vh 2vw;
+  border: solid 1px #e5e5e527;
+  border-radius: 5px;
+  backdrop-filter: blur(50px);
+  font-size: 0.9vw;
+  position: relative;
+  overflow-y: auto;
+  height: 80%;
+  overflow-x: hidden;
+
+  h1 {
+    font-size: 1.2em;
+    color: #f6f6f6;
+  }
+
+  p {
+    font-size: 0.9em;
+    color: #9d9ba8;
+  }
+
+  .modalHead {
+    margin: 5% 0;
+
+    h1 {
+      font-size: 1.2em;
+      color: #f6f6f6;
+    }
+
+    p {
+      font-size: 0.9em;
+      color: #9d9ba8;
+    }
+  }
+
+  .device-detail {
+    margin-bottom: 10%;
+
+    .device-items {
+      display: flex;
+    }
+  }
+
+  .sc-uploads {
+    display: flex;
+    margin-bottom: 5%;
+
+    .front {
+      margin: 3% 5% 3% 0;
+    }
+
+    .back {
+      margin: 3% 5% 3% 0;
+    }
+
+    .frontBtn {
+      width: 90%;
+      padding: 5% 0;
+      margin-top: 5%;
+      background-color: transparent;
+      box-shadow: none;
+      border: dashed 1px #9d9ba8;
+      color: #9d9ba8;
+      font-family: Poppins;
+    }
+  }
+
+  .btns {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10%;
+
+    .clsbtn {
+      background: transparent;
+      box-shadow: none;
+      color: white;
+      margin-right: 3%;
+      font-family: Poppins;
+    }
+
+    .cnfrmbtn {
+      font-family: Poppins;
+    }
+  }
+}
+
+.MuiFormHelperText-root{
+  font-family: inherit;
+  color: #ff2449 !important;
+}

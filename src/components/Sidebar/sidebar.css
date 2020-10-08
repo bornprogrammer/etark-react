@@ -1,0 +1,49 @@
+.items {
+  background-color: transparent;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.items h1 {
+  font-size: 1.2em;
+  margin-bottom: 0.2vh;
+}
+
+.items p {
+  font-size: 1em;
+  color: #616066;
+}
+
+.step {
+  background-color: #245fd3;
+  border-radius: 2em;
+  -moz-border-radius: 2em;
+  -webkit-border-radius: 2em;
+  color: white;
+  display: inline-block;
+  line-height: 1.5em;
+  margin-left: 1em;
+  margin-bottom: 3em;
+  text-align: center;
+  width: 1.5em;
+}
+
+.itemarea {
+  padding: 1.6em 1em;
+}
+
+.done {
+  margin-left: 1em;
+  margin-bottom: 2.5em;
+}
+
+.side-body {
+  width: 26%;
+}
+
+@media only screen and (max-width: 768px) {
+  .side-body {
+    display: none;
+  }
+}

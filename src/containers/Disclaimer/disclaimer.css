@@ -1,0 +1,16 @@
+.aboutList li {
+  margin-bottom: 1.5vh;
+  margin-top: 1.5vh;
+}
+.aboutList ul {
+  margin-left: 10vh;
+}
+.aboutList p {
+  text-align: left;
+  margin-top: 2vh;
+}
+
+.aboutList h2 {
+  text-align: left;
+  margin-top: 5vh;
+}

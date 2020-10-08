@@ -1,0 +1,113 @@
+.footer {
+  background: #26252e;
+  color: #f6f6f6;
+  padding: 3% 10% 0;
+  .top-section {
+    display: flex;
+    padding: 5% 0;
+    .top-left {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      a {
+        text-decoration: none;
+      }
+      .button {
+        margin-bottom: 5%;
+        width: fit-content;
+        background-color: #f6f6f6;
+        border-radius: 2px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 32px;
+        letter-spacing: 0.02em;
+        color: #26252e;
+        font-family: Poppins, 'sans-serif';
+      }
+      .phone-text {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        color: #b5b3c4;
+      }
+      .info-text {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 22px;
+        letter-spacing: 0.02em;
+        color: #f6f6f6;
+      }
+      .email {
+        margin-top: 14px;
+      }
+      .address {
+        margin-top: 8px;
+      }
+      .social-links {
+        margin-top: 16px;
+        a {
+          margin-right: 1.5vw;
+        }
+      }
+    }
+    .top-right {
+      display: flex;
+      // flex: 1;
+
+      .top-right-left,
+      .top-right-right {
+        margin-right: 5px;
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        .title-text {
+          font-style: normal;
+          font-weight: 600;
+          font-size: 18px;
+          line-height: 22px;
+          letter-spacing: 0.02em;
+          color: #f6f6f6;
+          margin-bottom: 24px;
+        }
+        .sub-title-text {
+          font-style: normal;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 22px;
+          letter-spacing: 0.02em;
+          color: #f6f6f6;
+          margin-bottom: 12px;
+          text-decoration: none;
+        }
+      }
+
+      .top-right-right-partners {
+        display: flex;
+        flex-direction: column;
+
+        div {
+          display: flex;
+          flex-direction: column;
+          margin-bottom: 70px;
+        }
+
+        div:nth-child(1) a:nth-child(4),
+        div:nth-child(2) span:nth-child(1) {
+          margin-bottom: 24px;
+        }
+      }
+    }
+  }
+  .divider {
+    border: 1px solid #f6f6f6;
+  }
+  .down-section2 {
+    padding: 3% 0;
+    display: flex;
+    justify-content: space-between;
+  }
+}

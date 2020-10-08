@@ -1,0 +1,52 @@
+::-webkit-scrollbar {
+  width: 0.6vw;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #edf1fa;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #b5b3c3;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #888;
+}
+
+.aboutList li {
+  margin-bottom: 1.5vh;
+  margin-top: 1.5vh;
+}
+
+.aboutList ul p a,
+.aboutList ul li a {
+  text-decoration: none;
+  color: #245fd3;
+  font-weight: 600;
+}
+
+.retailAvail li a {
+  text-decoration: none;
+  color: #245fd3;
+  font-weight: 600;
+}
+
+.aboutList ul {
+  margin: 20px 10px;
+}
+
+.aboutList p {
+  text-align: left;
+  margin-top: 2vh;
+}
+
+.aboutList h2 {
+  text-align: left;
+  margin-top: 5vh;
+}

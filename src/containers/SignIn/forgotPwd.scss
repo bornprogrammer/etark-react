@@ -1,0 +1,33 @@
+.password-field {
+  display: flex;
+  flex-direction: column;
+  height: 60%;
+  margin-bottom: 10%;
+}
+
+.error {
+  color: red;
+  font-style: italic;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.password-show {
+  color: red;
+  font-style: italic;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.actions {
+  a {
+    text-decoration: none;
+  }
+  .button {
+    color: white;
+    height: 36px;
+    width: 200px;
+    font-family: Poppins, 'sans-serif';
+  }
+}

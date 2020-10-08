@@ -1,0 +1,26 @@
+.mlcontain {
+  background-color: white;
+  border-radius: 5px;
+  padding-bottom: 5vh;
+  min-height: 65vh;
+  padding: 0 2vw;
+}
+
+.mlbody {
+  margin-top: 5vh;
+  margin-right: 15%;
+}
+
+.mlcontain h1 {
+  font-size: 1.2em;
+  margin-bottom: 0.3vh;
+}
+
+.mlcontain p {
+  font-size: 1em;
+  color: #616066;
+}
+
+.mlbody p {
+  color: #26252e;
+}
